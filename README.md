@@ -9,4 +9,4 @@ Checking the performance of the add-on was carried out in [Firefox Browser Devel
 Firefox versions [Extended Support Release (ESR)](https://www.mozilla.org/firefox/organizations/), [Developer Edition](https://www.mozilla.org/firefox/developer/) and [Nightly](https://nightly.mozilla.org/) will allow you to bypass the add-on signing requirement if you change the parameter ```xpinstall.signatures.required``` to ```false``` in the Firefox configuration editor (```about:config``` page).
 Or you can [sign add-on](https://habr.com/ru/post/355144/) yourself.
 
-To install add-on download .zip file of the repository and drop it to ```about:addons``` page.
+To install add-on create .zip file with the repository files(repository .zip file downloading throws error, create .zip file which does not contain exclusively folder carriage-eater-main) and drop it to ```about:addons``` page.
